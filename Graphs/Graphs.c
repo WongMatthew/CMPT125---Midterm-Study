@@ -36,6 +36,8 @@ Directed graph: A graph in which each edge only describes the relation from one 
 // ============================================================================
 // Representing graphs in C
 
+/*
+
 // Adjacency Matrix
 #define NUM_OF_VERTICES 
 
@@ -62,3 +64,5 @@ LList adjList[NUM_OF_VERTICES];
 // Edge between vertex 2 and vertex 3
 insertEnd(adjList[2], 3);
 insertEnd(adjList[3], 2);
+
+*/
