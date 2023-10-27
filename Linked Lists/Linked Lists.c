@@ -3,6 +3,7 @@
 
 // Concept: Nodes which store two things: 1. Value of an item and 2. Memory address of next node
 
+// ============================================================================
 /*
 Basic operations of a linked list:
 
@@ -10,24 +11,26 @@ Create:
 - Start with an empty list that has no nodes 
 - When there is no address to store, use NULL
 
-**
+// ============================================================================
 Insert first Node:
 - Create a new node storing the value of the inserted item
 - Next pointer set to NULL
 - Update head and tail to remember the node
 
-**
+// ============================================================================
 Insert another node (v1 - Insert to front): 
 - Create a new node storing the value of the inserted item, and the next pointer set to NULL
 - Since new node is new front, update next pointer accordingly
 - Update head to remember the node (the tail will stay the same)
+
+**
 
 Insert another node (v2 - Insert to back):
 - Create a new node storing the value of the inserted item, and the next pointer set to NULL
 - Since new node is new tail, update tail's next pointer accordingly
 - Update tail to remember the node (head will stay the same)
 
-**
+// ============================================================================
 Remove a node (v1 - Remove from front):
 - Use an extra node pointer to remember where the node is
     - Once we update the head, it will disappear and no one can find it 
@@ -36,6 +39,8 @@ Remove a node (v1 - Remove from front):
     - Return the address of the node or just the value
     - Free the node
 
+**
+
 Remove a node (v2 - Remove from back):
 - Use an extra node pointer to remember where the node is
     - Once we update the head, it will disappear and no one can find it 
@@ -43,11 +48,8 @@ Remove a node (v2 - Remove from back):
 - Update tail to remember new end (head is same, unless list is empty, then update both to NULL)
     - Return address of node, or just the value
     - Free the node
-
 */
-
-// 
-
+// ============================================================================
 // Sample code
 
 #include <stdio.h>

@@ -1,7 +1,6 @@
 // Notes: Week 5 (2)
 
 // ============================================================================
-
 /* 
 Linear Search (v1: Boolean)
 
@@ -12,6 +11,14 @@ Main Idea:
 
 **
 
+Pseudocode:
+
+for i = 0 to N-1 {
+    if array[i] == key, return i
+}
+return -1
+
+// ============================================================================
 Linear Search (v2: Index)
 
 Main Idea:
@@ -40,6 +47,5 @@ Notes:
 for i = 0 to N-1 {
     if array[i] == key, return i
 }
-return -1;
-
+return -1
 */
