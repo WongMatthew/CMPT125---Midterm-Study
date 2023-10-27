@@ -1,3 +1,5 @@
+// Typedef struct for linked list
+
 typedef struct Node{
     int value;
     struct Node* next;
@@ -26,3 +28,4 @@ typedef struct{
 typedef struct{
     LList_t* data;
 } LLDArray_t;
+
