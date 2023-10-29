@@ -24,6 +24,5 @@ int main(){
     // So many "structs" :(
     // See "typedef structs with nickname.c"
 
-
     return 0;
 }

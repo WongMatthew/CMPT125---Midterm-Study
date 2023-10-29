@@ -1,4 +1,4 @@
-//Typedef structs with nicknames
+// Typedef structs with nicknames
 
 // Writing out "struct" too tedious? Give the struct a nickname
 
