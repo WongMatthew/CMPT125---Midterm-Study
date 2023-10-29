@@ -36,4 +36,35 @@ return -1
 
 Time Complexity: O(logN)
 
-*/
+// ========================================================================== */
+// Sample code (by https://www.geeksforgeeks.org/binary-search/)
+
+#include <stdio.h>
+ 
+// An iterative binary search function.
+int binarySearch(int arr[], int leftIndex, int rightIndex, int key)
+{
+    while (leftIndex <= rightIndex) {
+        int m = leftIndex + (rightIndex - leftIndex) / 2;
+        
+        if (arr[m] == key)  return m;           // If x is present at mid, complete and finish 
+        
+        if (arr[m] < key)   leftIndex = m + 1; // If x greater, ignore left half
+ 
+        else rightIndex = m - 1;                // If x is smaller, ignore right half
+    }
+ 
+    return -1;// If the element is not found, return -1
+}
+ 
+// Driver code
+int main(void) {
+    int arr[] = { 2, 3, 4, 10, 40 };
+    int size = sizeof(arr) / sizeof(arr[0]);
+    int key = 10;
+    int result = binarySearch(arr, 0, size - 1, key);
+    (result == -1) 
+        ? printf("Element is not present in array")
+        : printf("Element is present at index %d", result);
+    return 0;
+}
