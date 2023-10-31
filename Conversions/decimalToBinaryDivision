@@ -1,0 +1,20 @@
+/*
+There are two methods to convert from decimal to binary
+
+METHOD 2: Division
+
+For example, our key is 75
+
+STEP 1: Divide your key by 2 until it reaches 0 and record the remainders
+75 / 2 = 37 R1
+37 / 2 = 18 R1
+18 / 2 = 9  R0
+9  / 2 = 4  R1
+4  / 2 = 2  R0
+2  / 2 = 1  R0
+1  / 2 = 0  R1
+
+STEP 2: Record the remainders backwards to receive the binary value
+
+1 0 0 1 0 1 1       <-- This is our answer
+*/
