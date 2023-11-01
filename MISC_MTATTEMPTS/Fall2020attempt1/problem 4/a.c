@@ -4,8 +4,7 @@ void str_reverse_iter(char *str) {
     int length = 0;
 
     // Calculate the length of the string
-    while (str[length] != '\0') length++; 
-    
+    while (str[length] != '\0') length++;
 
     for (int i = 0; i < length / 2; i++) {
         char temp = str[i];

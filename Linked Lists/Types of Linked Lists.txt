@@ -1,0 +1,8 @@
+Single Linked List: Navigation is only forward
+- Made up of nodes that consist of two parts:
+    - Data - Contains the data
+    - Link - Contains the address of the next node
+
+Doubly Linked Lists: Forward and backward traversing is possible
+
+Circular Linked List: Last element is linked to the first element
