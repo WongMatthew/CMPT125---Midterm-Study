@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "decimaltobinarydivision": "c",
+        "creatingASingleLL3.C": "cpp"
     }
 }
