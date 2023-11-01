@@ -57,11 +57,9 @@ Remove a node (v2 - Remove from back):
 #include "typedefs.h"
 
 // Function to create an empty list and returns the address of the list
-/*
-Create: 
+/* Create: 
 - Start with an empty list that has no nodes 
-- When there is no address to store, use NULL
-*/
+- When there is no address to store, use NULL */
 LList_t* LL_create(){
     LList_t* theList = malloc(sizeof(LList_t));
     theList -> head = NULL;
@@ -70,6 +68,11 @@ LList_t* LL_create(){
 
 
 // Function to add an int value to the front of the list as a node
+/*Insert first Node:
+- Create a new node storing the value of the inserted item
+- Next pointer set to NULL
+- Update head and tail to remember the node
+*/
 void LL_insertFront(LList_t* theList, int value){
     if (theList == NULL) return;
 
