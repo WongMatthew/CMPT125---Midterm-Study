@@ -25,9 +25,7 @@ int main() {
     current->link = NULL;
     head->link->link = current; 
 
-    countingNodes(head);
     addToEnd(head,67);
-    countingNodes(head);
     
     return 0;
 }

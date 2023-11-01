@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "typedef struct node.c"
 
 void print_data(Node *head){
     // Case1: Empty List

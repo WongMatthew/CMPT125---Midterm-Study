@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "typedef struct node.c"
 
+// Use this to include it in your main!
+// #include "(definition) countingNodes.c"
 
 void countingNodes(Node *head){
     int count = 0; 

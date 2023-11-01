@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "typedef struct node.c"
 
 // From Neso Academy: https://www.youtube.com/watch?v=LYGbeWnYXd8&
 
@@ -15,7 +14,7 @@ void addToEnd(Node *head, int data){
     while (head_address -> link != NULL){
         head_address = head_address -> link;
     }
-    // Set 
+    // Set the head address to the temp value
     head_address -> link = temp;
 
 }

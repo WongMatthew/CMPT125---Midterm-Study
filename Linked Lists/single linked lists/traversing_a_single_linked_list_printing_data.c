@@ -6,8 +6,6 @@
 #include "typedef struct node.c"        // The node struct
 #include "(definition) print_data.c"    // The function used here
 
-//=============================================================================
-
 int main() {
     // First node
     Node *head = malloc(sizeof(Node));
