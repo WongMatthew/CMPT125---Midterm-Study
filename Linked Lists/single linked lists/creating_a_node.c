@@ -4,11 +4,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
-typedef struct {
-    int data;
-    struct node *link;
-}Node;
+#include "typedef struct node.c"
 
 int main(){
     Node *head = NULL;  // Create a pointer to point to the first node

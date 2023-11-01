@@ -4,11 +4,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
-typedef struct Node {
-    int data;
-    struct Node *link;
-} Node;
+#include "typedef struct node.c"
 
 int main() {
     Node *head = malloc(sizeof(Node));      // Allocate size for the pointer head

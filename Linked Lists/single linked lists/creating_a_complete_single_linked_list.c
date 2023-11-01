@@ -9,11 +9,7 @@ PART 2: https://www.youtube.com/watch?v=HrY_YmU1vdg
 
 #include <stdio.h>
 #include <stdlib.h>
-
-typedef struct {
-    int data;
-    struct node *link;
-}Node;
+#include "typedef struct node.c"
 
 int main(){
     Node *head = malloc(sizeof(Node)); 
