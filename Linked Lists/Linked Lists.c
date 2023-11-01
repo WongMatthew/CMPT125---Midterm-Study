@@ -57,6 +57,11 @@ Remove a node (v2 - Remove from back):
 #include "typedefs.h"
 
 // Function to create an empty list and returns the address of the list
+/*
+Create: 
+- Start with an empty list that has no nodes 
+- When there is no address to store, use NULL
+*/
 LList_t* LL_create(){
     LList_t* theList = malloc(sizeof(LList_t));
     theList -> head = NULL;
